@@ -1,8 +1,8 @@
 
-let precoCombustivel = 5.59;
-let qtdlitrosabastecimento = 45;
-let distanciaKM = 600;
-let valormediaConsumo = (distanciaKM / qtdlitrosabastecimento) * precoCombustivel;
+const precoCombustivel = 5.79;
+const qtdlitromedia = 10;
+let distanciaKM = 100;
+let valormediaConsumo = (distanciaKM / qtdlitromedia) * precoCombustivel;
 
 
 console.log(valormediaConsumo);
